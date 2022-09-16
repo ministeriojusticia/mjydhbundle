@@ -1,0 +1,29 @@
+{
+    "name": "mjydh/mjydh",
+    "description": "Bundle Base del Ministerio de Justicia",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gustavo Campos",
+            "email": "gcampos@santafe.gov.ar"
+        },
+        {
+            "name": "Gustavo Sánchez",
+            "email": "sanchezg@santafe.gov.ar"
+        },
+        {
+            "name": "Horacio Locatelli",
+            "email": "hlocatelli@santafe.gov.ar"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MjydhBundle\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.2.5",
+        "twig/twig": "^2.12|^3.0"
+    }
+}

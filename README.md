@@ -1,5 +1,15 @@
 # Ministerio de Justicia y Derecho Humanos.
 
+## Configuración del bundle
+
+config\packages\twig.yaml
+
+```
+twig:
+    paths:
+        '%kernel.project_dir%/vendor/mjydh/MjydhBundle/src/Resources/views': MjydhBundle
+```
+
 ## Repositorio 
 
 https://git.santafe.gov.ar/mjydh/mjydhbundle

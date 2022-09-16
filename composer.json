@@ -1,5 +1,5 @@
 {
-    "name": "mjydh/mjydh",
+    "name": "mjydh/mjydhbundle",
     "description": "Bundle Base del Ministerio de Justicia",
     "type": "symfony-bundle",
     "license": "MIT",
